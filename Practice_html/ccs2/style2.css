@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Berlin Sans FB Demi";
+    src: url("font.ttf") format("truetype");
+}
+.container {
+    width: 28%;
+    margin: auto;
+}
+html{
+    font-family: "Berlin Sans FB", serif;
+}
+header {
+    background-color: lightblue;
+}
+li a{
+    text-decoration: none;
+}
+main {
+    background-color: greenyellow;
+}
+li a:hover {
+    background-color: brown;
+}
+li a:hover {
+    content: " @ ";
+}
+footer {
+    background-color: beige;
+}
