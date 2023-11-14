@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+html {font-size: x-large;
+    margin: 0;
+    font-family: 'Playpen Sans', cursive;
+    }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu a {
+    float: left;
+    background-color: white;
+    color: black;
+    text-align: -moz-left;
+    padding: 14px 10px;
+    text-decoration: gainsboro;
+    font-size: 17px;}
+.company {
+    font-size: 40px;
+
+}
+.company-wrapper {
+    /*border: 1px red solid;*/
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.description{
+    width: 100ch;
+    font-family: 'Playpen Sans', cursive;
+    color: whitesmoke;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+}
+
+
